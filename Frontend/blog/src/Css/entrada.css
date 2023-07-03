@@ -1,0 +1,19 @@
+.error-message {
+    margin-top: 2px;
+    color: red;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#aceptar {
+    margin-bottom: 20px;
+}
+
+.entrada-form {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}

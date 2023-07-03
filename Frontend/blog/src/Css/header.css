@@ -1,0 +1,8 @@
+.font-face {
+    font-family: 'AdventPro-VariableFont_wdth';
+    src: url('../Fonts/AdventPro-VariableFont_wdth\,wght.ttf') format('truetype') !important;
+}  
+
+.custom-size {
+    font-size: 60px;
+}

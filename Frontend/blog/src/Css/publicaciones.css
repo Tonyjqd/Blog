@@ -1,0 +1,87 @@
+.publicaciones-container {
+    margin-top: 20px;
+}
+
+.publicaciones-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #e8eaeb;
+}
+
+.publicaciones-container article {
+    margin-bottom: 20px;
+}
+
+.publicaciones-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.publicaciones-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.publicaciones-container p {
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.publicaciones-container button {
+    display: block;
+    margin-top: 10px;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #535151 !important;
+}
+
+button.eliminar {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.font-face {
+    font-family: 'FiraSansExtraCondensed-Light';
+    src: url('../Fonts/FiraSansExtraCondensed-Light.ttf') format('truetype') !important;
+}
+
+.h2pub {
+    font-family: 'FiraSansExtraCondensed-Light'!important;
+    font-size: 35px !important;
+}
+
+p {
+    font-family: 'FiraSansExtraCondensed-Light' !important;
+    font-size: 24px !important;
+}
+
+.fecha{
+    font-size: 18px !important;
+}
+

@@ -1,0 +1,130 @@
+img {
+    max-width: 100%;
+    width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: 'FiraSansExtraCondensed-Light' !important;
+    font-size: 24px !important;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button.cancelar {
+    background-color: #dc3545;
+}
+
+.buttons-container {
+    margin-top: 10px;
+}
+
+.visualizacion-section {
+    margin-top: 20px;
+}
+
+.visualizacion-section button {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.visualizacion-section button.editar {
+    background-color: #ffc107;
+}
+
+.visualizacion-section button.eliminar {
+    background-color: #dc3545;
+}
+
+@media (max-width: 320px) {
+    h1 {
+    font-size: 20px;
+    }
+    
+    p {
+    font-size: 14px;
+    line-height: 1.5;
+    }
+    
+    form input[type="text"],
+    form textarea {
+    font-size: 14px;
+    }
+    
+    form button {
+    font-size: 14px;
+    padding: 8px 16px;
+    }
+    
+    .visualizacion-section button {
+    font-size: 14px;
+    padding: 8px 16px;
+    }
+}
+
+.container {
+    text-align: center;
+}
+
+.eliminar{
+    margin-bottom: 20px;
+}
+
+.font-face {
+    font-family: 'FiraSansExtraCondensed-Light';
+    src: url('../Fonts/FiraSansExtraCondensed-Light.ttf') format('truetype') !important;
+}
+
+.h1pub {
+    font-family: 'FiraSansExtraCondensed-Light'!important;
+    font-size: 35px !important;
+}
+
+#fecha{
+    font-size: 18px !important;
+}

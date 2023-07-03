@@ -1,0 +1,21 @@
+.font-face {
+    font-family: 'AzeretMono-VariableFont_wght';
+    src: url('../Fonts/AzeretMono-VariableFont_wght.ttf') format('truetype') !important;
+}
+
+.btn-success {
+    font-family: 'AzeretMono-VariableFont_wght'!important;
+    font-size: 18px !important;
+}  
+
+nav button#entrada a:hover{
+    color: white !important;
+    border-color: #fff !important;
+    text-decoration: solid !important;
+}
+
+nav {
+    display: flex;
+    position: static;
+    
+}
